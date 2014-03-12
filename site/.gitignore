@@ -1,0 +1,12 @@
+/*.php
+
+license.txt
+readme.html
+vendor/
+wp-admin/
+wp-includes/
+# Allow for nested Git repos and Composer install
+# to manage plugins, themes, and uploads for dev.
+wp-content/
+
+wp-cli.yml

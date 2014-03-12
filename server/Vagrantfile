@@ -1,8 +1,8 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
-WP_IP = '33.33.33.30'
-WP_PROJECT_NAME = 'scaffold'
+WP_IP = '33.33.33.31'
+WP_PROJECT_NAME = 'example'
 WP_HOSTNAME = "local.#{WP_PROJECT_NAME}.wordpress.dev"
 
 # Public root is the same regardless of project type.

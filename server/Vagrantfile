@@ -85,7 +85,7 @@ Vagrant.configure("2") do |config|
         # Can also override admin name and pass
         :admin_email => 'test@test.com',
         :plugins => {
-          # :include => []
+          :include => ['pods', 'admin-bar-toggle']
           # :exclude => []
         }
       }

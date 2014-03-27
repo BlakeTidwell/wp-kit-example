@@ -1,0 +1,2 @@
+# WP Scaffold
+An example of using Composer to manage Wordpress dependencies, in tandem with [WP Scaffold](https://github.com/BlakeTidwell/wp-scaffold) for provisioning a local instance with plugins and themes activated.

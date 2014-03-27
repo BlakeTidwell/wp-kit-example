@@ -72,6 +72,8 @@ Vagrant.configure("2") do |config|
   # config.berkshelf.except = []
 
   config.vm.provision :chef_client do |chef|
+    chef.verbose_logging = true
+
     chef.json = {
       :mysql => {
         :server_root_password => '9237e4cd4030be8c4b45c7972e5eeb8a',
@@ -87,7 +89,8 @@ Vagrant.configure("2") do |config|
         :plugins => {
           :include => ['pods', 'admin-bar-toggle']
           # :exclude => []
-        }
+        },
+        :theme => 'JointsWP'
       }
     }
 
